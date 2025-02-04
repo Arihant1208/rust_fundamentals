@@ -3,10 +3,12 @@ use std::io;
 use rand::Rng;
 use crate::garden::vegitables::Greenes;
 use crate::inital_stuff::inital_stuff;
+use crate::vectors::vectors;
 
 pub mod inital_stuff;
 pub mod guess_game;
 pub mod garden;
+pub mod vectors;
 
 fn main() {
     // let result = first_word();
@@ -31,6 +33,8 @@ fn main() {
 
     modularity();
     garden::print_hey();
+    
+    vectors();
 }
 
 fn modularity () {

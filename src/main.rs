@@ -31,13 +31,17 @@ fn main() {
 
     // enumTes();
 
-    modularity();
-    garden::print_hey();
+    // modularity();
+    // garden::print_hey();
     
-    vectors();
+    // vectors();
+
+    let hello = "Здравствуйте";
+    // let answer = &hello[0];
+    // println!("{answer}")
 }
 
 fn modularity () {
     let beans = Greenes {} ;
-    println!("heyyyyy eat {beans:?}")
+    println!("heyyyyy eat {beans:?}");
 }

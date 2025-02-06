@@ -1,5 +1,6 @@
 use std::io;
 
+use hashmap::{hashmaps, wordCount};
 use rand::Rng;
 use crate::garden::vegitables::Greenes;
 use crate::inital_stuff::inital_stuff;
@@ -9,6 +10,7 @@ pub mod inital_stuff;
 pub mod guess_game;
 pub mod garden;
 pub mod vectors;
+pub mod hashmap;
 
 fn main() {
     // let result = first_word();
@@ -39,6 +41,9 @@ fn main() {
     let hello = "Здравствуйте";
     // let answer = &hello[0];
     // println!("{answer}")
+
+    hashmaps();
+    wordCount();
 }
 
 fn modularity () {

@@ -27,5 +27,6 @@ pub fn solve() -> i32{
             ans += combinations(*val, 2);
         }
     }
+    println!("{hm:?}");
     return ans*4;
 }

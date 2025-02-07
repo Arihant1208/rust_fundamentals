@@ -1,5 +1,6 @@
 use std::io;
 
+use generics::genreicsImpl;
 use hashmap::{hashmaps, wordCount};
 use leetcode::Tuple_1726::solve;
 use rand::Rng;
@@ -13,6 +14,7 @@ pub mod garden;
 pub mod vectors;
 pub mod hashmap;
 pub mod leetcode;
+pub mod generics;
 
 fn main() {
     // let result = first_word();
@@ -49,6 +51,8 @@ fn main() {
 
     let ans = solve();
     println!("{ans}");
+
+    // genreicsImpl();
 }
 
 fn modularity () {

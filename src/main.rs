@@ -4,6 +4,7 @@ use generics::genreicsImpl;
 use hashmap::{hashmaps, wordCount};
 use leetcode::Tuple_1726::solve;
 use rand::Rng;
+use traits::traitsExample;
 use crate::garden::vegitables::Greenes;
 use crate::inital_stuff::inital_stuff;
 use crate::vectors::vectors;
@@ -15,6 +16,7 @@ pub mod vectors;
 pub mod hashmap;
 pub mod leetcode;
 pub mod generics;
+pub mod traits;
 
 fn main() {
     // let result = first_word();
@@ -49,10 +51,13 @@ fn main() {
     // hashmaps();
     // wordCount();
 
-    let ans = solve();
-    println!("{ans}");
+    // let ans = solve();
+    // println!("{ans}");
 
     // genreicsImpl();
+
+    traitsExample();
+
 }
 
 fn modularity () {
